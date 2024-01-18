@@ -22,3 +22,11 @@ rad.json
 TestResults.xml
 hi
 hello
+.log
+.lock
+.pyc
+logs/debug.log
+logs/monday/foo.bar
+foo.log
+
+
