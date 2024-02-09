@@ -9,6 +9,7 @@
     <style>
         table, th, td {
         border:1px solid black;
+        margin: 0%;
         }
 
         body{
@@ -29,6 +30,10 @@
       
         .map{
             margin-right: 20%;
+            position: relative;
+            bottom:550px;
+            width: 400px;
+            height: 280px;
         }
 
         
@@ -60,7 +65,7 @@
             </div>
             
             <div>
-                <img src="starrynight.jpg"  width="400" height="200" alt="The Starry Night" style="margin-left:70%; position: relative; bottom:250px; ">
+                <img src="starrynight.jpg"  width="400px" height="200px" alt="The Starry Night" style="margin-left:70%; position: relative; bottom:250px; ">
                 <p style="margin-left: 70%; position: relative; bottom:250px; text-align: center;"><cite>The Starry Night</cite>by Vincent Van Gogh</p>
             </div>
             <div>
@@ -74,7 +79,7 @@
             </div>
         </div>
         <div>
-            <article style="margin-left:30%; position:relative; bottom:300px ;">
+            <article style="margin-left:30%; position:relative; bottom:600px ;">
                 <h2 style="text-align: center; position: relative; right: 230px;">RIIZE</h2>
                 <p style="text-align:center; width: 600px; font-family: georgia;">
                     Riize is a South Korean boy band formed by SM Entertainment.
@@ -86,13 +91,13 @@
         
         <div style="margin-top:10%; font-size:20px;">
             <form action="">
-                <label for="fname">First Name:</label>
+                <b><label for="fname">First Name:</label></b>
                 <input type="text" id="fname" name="fname" required pattern="[A-Z a-z] {50}"><br><br>
-                <label for="lname">Last Name:</label>
+                <b><label for="lname">Last Name:</label></b>
                 <input type="text" id="lname" name="lname" required><br><br>
-                <label for="password">Password:</label> 
+                <b><label for="password">Password:</label> </b>
                 <input type="password" name="password" id="password" minlength="10" required><br><br>
-                <p style="margin:0%;">Gender</p>
+                <b><p style="margin:0%;">Gender</p></b>
                 <input type="radio" id="gender" name="gender">
                 <label for="gender">Male</label><br>
                 <input type="radio" id="gender" name="gender">
@@ -103,13 +108,13 @@
         <div>
             <div class="tacbox">
                 <input id="checkbox" type="checkbox" />
-                <label for="checkbox" style="font-size:small"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+                <i><label for="checkbox" style="font-size:small"> I agree to these <a href="#">Terms and Conditions</a>.</label></i>
               </div>
         </div>
         </div>
        
         </div>
-    <div>
+    <div class="table">
         <div class="row-flex" style="margin-left:25%; position:relative; bottom:350px; right:350px">
             <table style="width:30%">
                 <tr>
