@@ -16,10 +16,42 @@
     a{
         text-decoration: none;
     }
-    h1{
-        font-family: impact;
+
+    .card{
+        height: 500px;
+        background-image: linear-gradient(rgb(80, 80, 220), rgb(173, 129, 129)) ;
+    }
+    .card-header{
+        font-size: 2rem;
+    }
+    
+    .image{
+        max-width: 100%;
+        width: 200px;
+        border-radius: 150px;
+        margin-left: 20px;
+    }
+    ul, li{
+        list-style-type:none;
+    }
+    .text{
+        display: flex;
+        float: right;
+        padding-left:250px;
+        padding-bottom:400px;
+        font-size: 21px;
+    }
+    .container{
+        display:grid;
+        
+    }
+    .card-header{
         text-align: center;
     }
+    .navigate{
+        display: flex;
+    }
+    
 </style>
 <body>
     <div class="navigate">
@@ -29,10 +61,24 @@
         <a href="Contact.html">Contact</a>
        </nav>
     </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                About Me
+            </div>
+            <div class="card-body">
+                <img class="image" src="profile.jpg" alt=""><hr>
+            </div>
+            <div class="text">
+                <ul>
+                    <li><em>Email: </em>rusbravo27@gmail.com</li>
+                    <li><em>Contact Number: </em> 09386415021</li>
+                    <li><em>Address: </em> Gibraltar, Baguio City</li>
+                </ul>  
+            </div>  
+        </div>
+    </div>       
     
-    <div class="container-sm">
-        <img src="" alt="">
-        <p>Email: rusbravo27@gmail.com</p>
-    </div>
 </body>
 </html>
