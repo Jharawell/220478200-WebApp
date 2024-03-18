@@ -7,53 +7,141 @@
 </head>
 <body>
     <style type="text/css">
-        .background{
-            background: lightgrey;
+        body{
+            margin: 0%;
+            overflow-y: hidden;
+            background-image: url(water-lily.jpg);
+            background-size: 55% 40%;
+            background-position: center bottom ;
+            background-repeat: no-repeat;
+            background-color: lightgrey;
         }
-        .head{
-            background: transparent;
+        
+        .background{
+            height: 100vh;
+            display: flex;
+            margin: 5%;
+            align-items: center;
+            
+   
+            
+        }
+        .head{    
+            background-color:#FFFF00 ;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-left: 40%;
+            margin-top: 20px;
         }
         .eyeball{
-            background: transparent;
-            border-color: transparent;
+            background-color: #000000; 
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            position: relative;
+            bottom: -50px;
+            left:123px;
+            
+        
         }
-        .beak{
-            color: green;
+        .beak1{
+            background-color: #FFD700;
+            transform: rotate(40deg);
+            width: 36px;
+            height: 4px;
+            position: relative;
+            bottom: 16px;
+          
         }
+
+        .beak2{
+            background-color:#FFD700;
+            transform: rotate(-32deg);
+            width: 35px;
+            height: 4px;
+        }
+        .beaks-container{
+            margin-left: 191px;
+            margin-top: 90px;   
+
+        }
+        
+        
         .body{
-            background-image:url(profile.jpg);
+            background-color:#FFFF00 ;
+            height: 250px;
+            width: 500px;
+            border-radius: 50%;
+            margin-top: 20%;
+            position: relative;
+            right: 315px;
+                
         }
-        .wing{
-            color: blueviolet;
+        .wing-container{
+            position: relative;
+            bottom: 145px;
+            right: 110px;
+           
         }
-        .drumstick{
-            color: brown;
+
+        .wing1{
+            background-color: #FFD700;
+            transform: rotate(20deg);
+            height: 4px;
+            
         }
-        .drumstick-right{
-            color: aquamarine;
+
+        .wing2{
+            background-color: #FFD700;
+            transform: rotate(-20deg);
+            height: 4px;
+            position: relative;
+            top:63px
         }
+
+        .drumsticks-left{
+            width:6px;
+            background-color:#8B4513;
+            height:50px;
+            position: relative;
+            bottom:21px;
+            right:180px
+        }
+
+        .drumsticks-right{
+            width:6px;
+            background-color:#8B4513;
+            height:50px;
+            position: relative;
+            left: 2px;
+            bottom: 63px;
+        }
+
     </style>
     <div class="canvas background">
         <div class="air background"></div>
+
         <div class="head">
             <div class="eyeball">
                 <span class="pupil">&middot;</span>
             </div>
-            <div class="beak">&gt;</div>
-        </div>
-    </div>
-    <div class="body">
-        <div class="wing">
-            <strong>&lt;</strong>
-        </div>
-    </div>
-    <div class="drumsticks">
-        <div class="drumsticks">
-            <br>
-        </div>
-        <div class="drumstick drumstick-right">
-            <br>
-        </div>
+
+                <div class="beaks-container">
+                <div class="beak1"></div>
+                <div class="beak2"></div>
+                </div>
+            <div class="body"></div>
+                <div class="wing-container">
+                <div class="wing1"></div>
+                <div class="wing2"></div>
+                </div>
+
+            <div class="drumsticks-container">
+                <div class="drumsticks-left"></div>
+                <div class="drumsticks-right"></div>
+            </div>
+        </div>   
     </div>
 </body>
 </html>
