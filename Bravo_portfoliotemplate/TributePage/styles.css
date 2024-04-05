@@ -18,6 +18,7 @@ hr{
   font-family: 'Caudex' serif;
   margin-bottom: 50px;
   font-size: 1.3rem;
+  text-align: justify;
   font-weight: lighter;
 }
 
@@ -42,4 +43,8 @@ hr{
 .header_2{
   font-family: 'Caudex' serif;
   font-weight: lighter;
+}
+.image{
+  margin-top: 15px;
+  
 }
