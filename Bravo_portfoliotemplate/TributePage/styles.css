@@ -23,9 +23,10 @@ hr{
 }
 
 .facts{
-  font-weight: lighter;
   font-size: 15px;
   font-style: italic;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .header{
