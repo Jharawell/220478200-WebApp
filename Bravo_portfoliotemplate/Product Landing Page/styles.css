@@ -44,7 +44,7 @@ a {
   border-radius: 2px;
   background: transparent;
   cursor: pointer;
-  border-color: green;
+  border-color: rgb(0, 128, 0);
 }
 
 .grid {
@@ -60,7 +60,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #32cd32;
+  background-color: #247a24;
 }
 
 @media (max-width: 600px) {
@@ -308,7 +308,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #32cd32;
+  background-color: #247a24;
 }
 footer > ul {
   display: flex;
